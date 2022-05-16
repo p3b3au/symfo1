@@ -1,0 +1,13 @@
+symfony new tp0 --version=5.4 (--full)
+cd public
+symfony serve -d
+
+dans .env
+APP_ENV=dev // changer dev par prod = active ou désactive les bundles (config/bundles.php) dev/prod
+=> ne pas toucher aux bundles
+
+
+!!!!!!!!!!!!!!!!!!!!! executer php sans wamp (pour que "php -S localhost:8000" fonctionne) !!!!!!!!!!!!!!!!
+variablee d'environnement dans recherche windows / variables d'nevireonnement / en bas : "PATH" / modifier : rajouter le chemin vers php.exe (à la CCI, php.exe est dans wamp/bin/php...
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
